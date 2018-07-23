@@ -51,6 +51,6 @@ class MotionDetector(object):
                 continue
 
             (x, y, w, h) = cv2.boundingRect(c)
-            cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 10)
+            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 10)
         
         return frame
