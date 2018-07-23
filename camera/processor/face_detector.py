@@ -41,5 +41,5 @@ class FaceDetector(object):
         for (x,y,w,h) in faces:
             cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),2)
 
-        # frameを戻り値として返す
+        ## frameを戻り値として返す
         return frame
